@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
-
     .hero {
+
         padding-top: 28px;
     }
 
@@ -11,7 +11,7 @@
     .hero__main {
         flex-direction: column-reverse;
         align-items: center;
-        padding-top: 80px;
+        padding-top: 100px;
     }
 
     .hero__content {
@@ -39,10 +39,48 @@
     .btn {
         display: inline-block;
         padding: 15px 25px;
+
     }
 
     .achievements {
+
         padding: 50px 0px;
+
     }
 
+    .skills__container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .skills__content {
+        padding-top: 80px;
+        width: 80%;
+        margin-right: 0px;
+    }
+
+    .skill__img {
+        object-fit: cover;
+    }
+
+    .form__rows {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .form__imput {
+        flex: 1 0 100%;
+    }
+
+    .footer__content {
+        flex-direction: column-reverse;
+        text-align: center;
+        row-gap: 20px;
+    }
+
+    .footer__user-name {
+        margin-bottom: 10px;
+    }
 }
+
+@media (max-width: 425px) {}
